@@ -1,0 +1,19 @@
+{
+  "connection_string": "your connection string goes here",
+  "query": "SELECT * FROM dbo.people",
+  "file_path": "C:\\Temp",
+  "file_name": "results.xlsx",
+  "layout": [
+    {
+        "column": 1,
+        "header": "Last Name",
+        "field": "LastName"
+    },
+    {
+        "column": 2,
+        "header": "First Name",
+        "field": "FirstName"
+    }
+
+  ]
+}
